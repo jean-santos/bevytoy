@@ -1,0 +1,15 @@
+[package]
+name = "vampiresurvivorsemvampiro"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#bevy = { version = "0.7.0", features = ["dynamic"] }
+bevy = { version = "0.7.0" }
+bevy-inspector-egui = "0.11.0"
+bevy_rapier2d = "0.14.0"
+bevy_ui = "0.7.0"
+#bevy_rapier2d = { git = "https://github.com/dimforge/bevy_rapier" }
+rand = "0.8.5"
